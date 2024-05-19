@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #de7beb;
+}
+#apresentacao{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+#apresentacao img{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+#apresentacao h3{
+    text-align: center;
+}
+#login-pc{
+    display: none;
+}
+#login{
+    width: 92%;
+    height: auto;
+    background: #fff;
+    border-radius: 15px;
+    padding: 4%;
+    float: left;
+    margin-left: 4%;
+  
+}
+#login h2{
+    color: #907beb;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+}
+#login p{
+    color: #909090;
+    font-size: 1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+#login h3{
+    color: #be53cc;
+    font-size: 1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+#login form{
+    width: auto;
+    height: auto;
+    float: left;
+
+}
+label{
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color:#333;
+    font-size: 0.8em;
+    float: left;
+}
+.campo-form{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background: #F1EDED;
+    text-indent: 8px;
+    outline: none;
+}
+.campo-form:focus{
+    background: #f0a7ff;
+    color: #fff;
+}
+.campo-form::placeholder{
+    color: #999;
+    font-size: 0.8em;
+}
+#email{
+    margin-bottom: 20px;
+}
+small{
+    width: 100%;
+    float: left;
+}
+.btn-form{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: bold;
+
+
+}
+#esqueceu{
+    text-align: right;
+    color: #ac2fbd;
+    float: left;
+    margin-bottom: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#conta{
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 
+}
+
+#btn-Submit{
+    background: #d147bf;
+    color: rgb(0, 0, 0);
+}
+
